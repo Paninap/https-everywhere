@@ -1,0 +1,8 @@
+<ruleset name="gme.one Fediverse">
+  <target host="gme.one" />
+  <target host="*.gme.one" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
