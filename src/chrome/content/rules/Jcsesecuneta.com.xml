@@ -1,0 +1,8 @@
+<ruleset name="Tomes of Knowledge">
+  <target host="jcsesecuneta.com" />
+  <target host="*.jcsesecuneta.com" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
