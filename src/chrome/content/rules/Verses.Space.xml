@@ -1,0 +1,8 @@
+<ruleset name="Verses.Space">
+  <target host="verses.space" />
+  <target host="*.verses.space" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
