@@ -1,0 +1,8 @@
+<ruleset name="Clean Real Food">
+  <target host="realfood.space" />
+  <target host="*.realfood.space" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
