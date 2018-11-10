@@ -1,0 +1,8 @@
+<ruleset name="Adorable and Beautiful">
+  <target host="beauty.moe" />
+  <target host="*.beauty.moe" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
