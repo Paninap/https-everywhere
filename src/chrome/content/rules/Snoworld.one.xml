@@ -1,0 +1,8 @@
+<ruleset name="Snoworld">
+  <target host="snoworld.one" />
+  <target host="*.snoworld.one" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
