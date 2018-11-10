@@ -1,0 +1,8 @@
+<ruleset name="gameshogun">
+  <target host="gameshogun.xyz" />
+  <target host="*.gameshogun.xyz" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
