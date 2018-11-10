@@ -1,0 +1,8 @@
+<ruleset name="Laibcoms">
+  <target host="laibcoms.com" />
+  <target host="*.laibcoms.com" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
