@@ -1,0 +1,8 @@
+<ruleset name="YourOnly.One">
+  <target host="youronly.one" />
+  <target host="*.youronly.one" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
