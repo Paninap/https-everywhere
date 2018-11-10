@@ -1,0 +1,8 @@
+<ruleset name="One Way Faith">
+  <target host="1way.faith" />
+  <target host="*.1way.faith" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
