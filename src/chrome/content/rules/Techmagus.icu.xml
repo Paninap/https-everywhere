@@ -1,0 +1,8 @@
+<ruleset name="techmagus">
+  <target host="techmagus.icu" />
+  <target host="*.techmagus.icu" />
+
+  <securecookie host=".+" name=".+" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
